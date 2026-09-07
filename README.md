@@ -1,5 +1,10 @@
 # ☕ Projetos em Java — Rafael Costa
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Status](https://img.shields.io/badge/status-ativo-35e3a3?style=flat-square)
+![License](https://img.shields.io/badge/licença-MIT-34c3e6?style=flat-square)
+[![Rodar ao vivo](https://img.shields.io/badge/▶_rodar_ao_vivo-no_navegador-35e3a3?style=flat-square)](https://rafscorp.github.io/Projetos_Interativos/)
+
 Repositório com os projetos que venho construindo enquanto aprendo Java na prática — depois de já ter mexido com C, quis ver como a linguagem resolve os mesmos problemas usando Programação Orientada a Objetos, coleções prontas e uma JVM cuidando da memória pra mim.
 
 A ideia aqui é a mesma do repositório de C: nada de curso pronto ou tutorial copiado, cada pasta é um projeto fechado e funcional, resolvendo um problema específico do começo ao fim.
