@@ -5,26 +5,18 @@
 ![License](https://img.shields.io/badge/licença-MIT-34c3e6?style=flat-square)
 [![Rodar ao vivo](https://img.shields.io/badge/▶_rodar_ao_vivo-no_navegador-35e3a3?style=flat-square)](https://rafscorp.github.io/Projetos_Interativos/)
 
-Repositório com os projetos que venho construindo enquanto aprendo Java na prática — depois de já ter mexido com C, quis ver como a linguagem resolve os mesmos problemas usando Programação Orientada a Objetos, coleções prontas e uma JVM cuidando da memória pra mim.
-
-A ideia aqui é a mesma do repositório de C: nada de curso pronto ou tutorial copiado, cada pasta é um projeto fechado e funcional, resolvendo um problema específico do começo ao fim.
-
----
+Depois de C, fui ver como Java resolve os mesmos problemas com POO, coleções prontas e uma JVM cuidando da memória.
 
 ## 📂 Projetos
 
 | Projeto | Nível | O que tem dentro |
 |---|---|---|
-| [`Calculadora_Swing`](./Calculadora_Swing) | 🟢 Iniciante/Intermediário | Calculadora com interface gráfica em Swing puro (`JFrame`, `JButton`, `GridLayout`), quatro operações básicas e tratamento de divisão por zero |
-| [`Sistema_Estoque`](./Sistema_Estoque) | 🔴 Avançado | Sistema de controle de estoque orientado a objetos: produtos, movimentações de entrada/saída, regra de estoque nunca ficar negativo, relatórios e persistência em arquivo |
+| [`Calculadora_Swing`](./Calculadora_Swing) | 🟢 Iniciante | Calculadora com interface gráfica em Swing puro |
+| [`Sistema_Estoque`](./Sistema_Estoque) | 🔴 Avançado | Controle de estoque OOP: interfaces, movimentações, relatórios, persistência em arquivo |
 
-Cada pasta tem seu próprio `README.md` com detalhes, estrutura de classes e instruções de compilação específicas.
+## Como compilar e rodar
 
----
-
-## 🚀 Como compilar e rodar
-
-Precisa ter o **JDK** instalado (`javac` e `java` disponíveis no terminal). Nenhum projeto usa Maven, Gradle ou biblioteca externa — só a biblioteca padrão do Java.
+Precisa do JDK (`javac`/`java`). Sem Maven, Gradle ou lib externa.
 
 ```bash
 cd <nome-do-projeto>
@@ -32,23 +24,10 @@ javac *.java
 java NomeDaClassePrincipal
 ```
 
-Cada README de projeto especifica exatamente qual é o arquivo/classe principal a rodar.
+## Tecnologias
 
----
+Java puro, Swing/AWT, POO (interfaces, classes abstratas, herança), coleções do `java.util`, exceções customizadas.
 
-## 🛠️ Tecnologias e conceitos
+## Autor
 
-- **Java puro** (sem frameworks), compilado com `javac`
-- Swing (`javax.swing`, `java.awt`) pra interface gráfica
-- Programação Orientada a Objetos: classes, interfaces, classes abstratas, herança e polimorfismo
-- Coleções do `java.util` (`ArrayList`, `HashMap`, `LinkedHashMap`)
-- Tratamento de exceções, inclusive exceções customizadas
-- Persistência simples em arquivo (`java.io`)
-- `java.time` pra datas e horários
-
----
-
-## 👤 Autor
-
-**Rafael Costa**
-GitHub: [github.com/rafscorp](https://github.com/rafscorp)
+Rafael Costa — [github.com/rafscorp](https://github.com/rafscorp)
